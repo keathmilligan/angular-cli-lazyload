@@ -4,7 +4,7 @@ import { HomeComponent }               from './home/home.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'lazy', loadChildren: './+lazy/lazy.module#LazyModule' },
+  { path: 'lazy', loadChildren: './lazy/lazy.module#LazyModule' },
   { path: '**', redirectTo: '' }
 ];
 
