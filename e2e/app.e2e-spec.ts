@@ -1,10 +1,10 @@
-import { AngularCliLazyloadPage } from './app.po';
+import { AngularCliLazyloadNewPage } from './app.po';
 
-describe('angular-cli-lazyload App', function() {
-  let page: AngularCliLazyloadPage;
+describe('angular-cli-lazyload-new App', function() {
+  let page: AngularCliLazyloadNewPage;
 
   beforeEach(() => {
-    page = new AngularCliLazyloadPage();
+    page = new AngularCliLazyloadNewPage();
   });
 
   it('should display message saying app works', () => {
