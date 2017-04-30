@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class AngularCliLazyloadNewPage {
+export class AngularCliLazyloadPage {
   navigateTo() {
     return browser.get('/');
   }
